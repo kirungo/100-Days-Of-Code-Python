@@ -416,3 +416,20 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# macOS system files
+.DS_Store
+
+# Ignore everything by default
+*
+
+# But keep README files
+!README.md
+!readme.md
+
+# Keep all Python files
+!*.py
+
+# Keep directories so git can traverse them
+!*/
+

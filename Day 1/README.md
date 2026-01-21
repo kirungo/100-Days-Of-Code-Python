@@ -1,0 +1,30 @@
+## Debugging Practice 🐞
+
+Review the code in the editor.  
+Each of the **five lines contains an error**.
+
+### Your Task
+- Run the code.
+- Read the error messages carefully.
+- Fix each line until the program runs **without errors**.
+- Use the interpreter feedback to understand **why** each error occurs and how to resolve it.
+
+---
+
+### Fix the code below 👇
+
+```python
+print(Notes from Day 1")
+ print("The print statement is used to output strings")
+print("Strings are strings of characters"
+priint("String Concatenation is done with the + sign")
+print(("New lines can be created with a \ and the letter n")
+```
+### Expected Output
+```
+Notes from Day 1
+The print statement is used to output strings
+Strings are strings of characters
+String Concatenation is done with the + sign
+New lines can be created with a \n
+```
