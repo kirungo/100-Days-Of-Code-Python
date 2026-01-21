@@ -44,3 +44,13 @@ glass2 = "juice"
 
 ---
 
+## Band Name Generator project
+
+1. Create a geeting for your program.
+2. Ask the user for the city that they grew up in and store it in a variable.
+3. AAsk the user for the name of a pet and store it in a avriable.
+4. Combine the name of their c ity anf pet and show them their band name.
+
+### Solution
+- [Band Name Generator]()
+---
