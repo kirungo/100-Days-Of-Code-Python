@@ -28,3 +28,19 @@ Strings are strings of characters
 String Concatenation is done with the + sign
 New lines can be created with a \n
 ```
+
+---
+## Variables 
+
+We have 2 variables glass1 and glass2. glass1 contains milk and glass2 contains juice. Write 3 lines of code to switch the contents of the variables. You are not allowed to type the words "milk" or "juice". You are only allowed to use variables to solve this exercise.
+
+### Sample code:
+
+```python
+glass1 = "milk"
+glass2 = "juice"
+```
+### Expected Output
+
+---
+
