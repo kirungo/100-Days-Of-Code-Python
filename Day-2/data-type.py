@@ -1,4 +1,4 @@
-#Using type ot get data type
+#Using type() to get an objects data type
 print(type("Hello"[0])) #will print the first element
 print(type("Hello"[-1])) #will print the last element
 
