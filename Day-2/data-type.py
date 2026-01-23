@@ -1,4 +1,4 @@
-#Using type() to get an objects data type
+#Using type() to get the data type of an object.
 print(type("Hello"[0])) #will print the first element
 print(type("Hello"[-1])) #will print the last element
 
@@ -17,3 +17,6 @@ print(type(3.14159))
 #Boolean
 print(type(True))
 print(type(False))
+
+#the len() only works on string, you have to turn a number into a str
+print(len(str(12)))
