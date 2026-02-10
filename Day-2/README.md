@@ -93,7 +93,8 @@ print(f"I am {age} years old")
 - Tip: 12%  
 - People: 5  
 
-Calculation:
+### Solution
+[Tip-Calculator](link)
 
 
 
