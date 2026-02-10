@@ -94,7 +94,7 @@ print(f"I am {age} years old")
 - People: 5  
 
 ### Solution
-[Tip-Calculator](link)
+[Tip-Calculator](https://github.com/kirungo/100-Days-Of-Code-Python/blob/main/Day-2/5-tip-calculator.py)
 
 
 
