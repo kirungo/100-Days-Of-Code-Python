@@ -20,3 +20,5 @@ Topics include basics, problem solving, automation, games, web, scraping, and da
 
 **Project • Music Band Name Generator**  
 [Code]() | [Live Demo]()
+
+## Day 3 • Conditional Statements, Logical Operators, Code Blocks & Scope
