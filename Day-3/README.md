@@ -49,3 +49,13 @@ if condition:
 else:
     do this
 ```
+
+<em> Logical operators </em>
+
+You can combine different conditions using logical operators
+
+```python
+A and B #Both conditions need to be true
+A or B #Only one condition needs to be true
+not E #The condition must be false
+```

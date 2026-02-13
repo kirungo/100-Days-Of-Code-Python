@@ -54,4 +54,4 @@ else:
     exit()  # Add this line to stop the program
 
 # Show total bill
-print(f"Your final bill is: ${total_bill}.")
+print(f"Your total bill is: ${total_bill}.")
