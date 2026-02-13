@@ -10,7 +10,7 @@ pepperoni_small = 2
 pepperoni_medium_large = 3
 extra_cheese = 1
 
-total_bill = 0
+total_bill = 0\
 
 # Enter Pizza size
 size = input("What size pizza do you want? S, M or L: ")
@@ -23,7 +23,7 @@ elif size == "M":
 elif size == "L":
     total_bill += large_pizza
 else:
-    print("You have chosen an invalid pizza size. Please try again!")
+    print("Invalid pizza size. Please try again!")
     exit()  # This line to stop the program
 
 # Asks on pepperoni preference
@@ -38,7 +38,7 @@ if pepperoni == "Y":
 elif pepperoni == "N":
     pass  # Do nothing, this is valid
 else:
-    print("You have chosen an invalid pepperoni size. Please try again!")
+    print("Invalid pepperoni response. Please try again!")
     exit()
 
 # Asks cheese preference
@@ -50,7 +50,7 @@ if cheese == "Y":
 elif cheese == "N":
     pass # Do nothing, this is valid
 else:
-    print("You have chosen an invalid chesse pepperoni size. Please try again!")
+    print("Invalid chesse response. Please try again!")
     exit()  # Add this line to stop the program
 
 # Show total bill
