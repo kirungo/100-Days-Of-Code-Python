@@ -59,3 +59,12 @@ A and B #Both conditions need to be true
 A or B #Only one condition needs to be true
 not E #The condition must be false
 ```
+
+<em> Treasure Island project </em>
+Your goal today is to build a "Chose your own adventure game". 
+Today you will be building a very simple version of this type of text game.
+Use the flow chart linked here to create the game logic.
+Once you've completed the project, you can always extend the game and make it more interesting!
+
+<em> Notes:
+Learnt the use of .lower() to make convert all string inputs entered by the user to lower case
