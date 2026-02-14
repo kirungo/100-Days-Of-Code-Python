@@ -38,7 +38,6 @@ veg = ["Cucumber", "Kale", "Spinach"]
 fruits_and_veg = [fruits, veg]
 # Result: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinach"]]
 ```
-
 You can visualize the nested list in 2D format like this:
 ```
 ["Cherry", "Apple", "Pear"]
