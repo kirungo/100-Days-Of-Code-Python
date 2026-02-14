@@ -1,6 +1,5 @@
 ## Day 3 • Conditional Statements, Logical Operators, Code Blocks & Scope
 
-
 ### Notes: 
 
 Condition Checks in Python </em>
