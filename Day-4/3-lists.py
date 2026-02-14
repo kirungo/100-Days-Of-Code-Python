@@ -17,8 +17,14 @@ print(fruits[1])
 #to confirm index 1 fruit has change
 print(fruits)
 
-# Add to an item to the end of the list
+# append() Adds an item to the end of the list
 fruits.append("Grapes")
 
 #to confirm index append() function has worked fruit has change
+print(fruits)
+
+# to add a list to a lits you use .extend()
+fruits.extend(["Pineapple", "Lemon", "Jack fruit"])
+
+# Confirms extended list using .extend() function works
 print(fruits)
