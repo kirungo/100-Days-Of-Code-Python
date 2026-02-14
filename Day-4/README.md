@@ -11,3 +11,36 @@ print(rand_num) #This will produce a random whole number between 1 and 10 (inclu
 
 
 ```
+
+### Nested Lists
+
+We can get the length of a list (number of items in the list) or the length of a string (number of characters in the string) by using the [len() function](https://docs.python.org/3/library/functions.html#len).
+
+#### IndexError
+
+When you try to access an item that is not in the range of the list, you will get an `IndexError`. For example:
+```python
+fruits = ["Cherry", "Apple", "Pear"]
+print(fruits[3])  # This will raise an IndexError (index 3 doesn't exist)
+```
+
+#### Creating Nested Lists
+
+You can put lists inside other lists, creating a "nested list":
+```python
+# List 1
+fruits = ["Cherry", "Apple", "Pear"]
+
+# List 2
+veg = ["Cucumber", "Kale", "Spinach"]
+
+# Nested list
+fruits_and_veg = [fruits, veg]
+# Result: [["Cherry", "Apple", "Pear"], ["Cucumber", "Kale", "Spinach"]]
+```
+
+You can visualize the nested list in 2D format like this:
+```
+["Cherry", "Apple", "Pear"]
+["Cucumber", "Kale", "Spinach"]
+```
