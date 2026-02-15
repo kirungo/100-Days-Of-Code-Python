@@ -17,7 +17,7 @@ human_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 
 # 1. rock(0) beats scissors(2)
 # 2. scissors(2) beats paper(1)
 # 3. paper(1) beats rock(0)
-# 4. if both players show the same shape, it's a tie
+# 4. if both players show the same number, it's a tie
 
 # Rock, paper, scissors logic
 if computer_choice == human_choice:
