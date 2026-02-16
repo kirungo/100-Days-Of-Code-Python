@@ -13,5 +13,5 @@ for [variable_name] in [list_name]:
 fruits = ["Apple", "Peach", "Pear", "Mango"]
 
 for fruit in fruits:
-    print(fruit)
+    print(fruit) # Prints Apple, Peach, Pear, Mango
 ```
