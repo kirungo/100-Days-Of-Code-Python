@@ -3,6 +3,10 @@
 Functions
 We ahave already used some functions for example the print(), len()
 
+Python uses a 4 spaces indentation, Spaces are the preffered indentation method.
+
+Python style guide can be found (here)[https://peps.python.org/pep-0008/]
+
 ```python
 # Defining a function
 def my_function():
