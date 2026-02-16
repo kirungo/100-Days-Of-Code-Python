@@ -11,9 +11,10 @@ symbols = int(input("How many symbols would you like? "))
 # Empty list that will get appended as we build our password
 password = []
 
-# Generate random letters
+# Get random letters within range of user input
 for letter in range(number_of_letters):
     # Alphabet letters: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+    # string.ascii_letters gets all letters in the alphabet in lower and upper
     letters = string.ascii_letters
     
     # Get a random letter from the list of letters
@@ -22,7 +23,7 @@ for letter in range(number_of_letters):
     # Add the random letter to our password list
     password.append(random_letter)
 
-# Generate random numbers
+# Get random numbers within range of user input
 for number in range(numbers):
     # Get a random number from 0 to 9
     random_number = random.randint(0, 9)
@@ -30,7 +31,7 @@ for number in range(numbers):
     # Add the random number to our password list
     password.append(random_number)
 
-# Generate random symbols
+# Get random symbols within range of user input
 for symbol in range(symbols):
     # Get all punctuation/special characters (like !@#$%^&*)
     pick_symbol = string.punctuation
