@@ -2,6 +2,7 @@
 ## For Loops, Range and Code Blocks
 <em> Notes: </em>
 Loops are things that hav eto happen over and over again
+The for loop checks EVERY score in the list, no exceptions.
 
 ```python
 # for loop: in the below item is the name give that allows to interate in the list

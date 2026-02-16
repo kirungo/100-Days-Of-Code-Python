@@ -9,7 +9,7 @@ print(f"Highest student score using the max() built-in function: {maximum_score}
 highest_score = student_scores[0]  # Start looping from the first score in the list
 
 # The for loop ALWAYS checks everyone:
-for score in student_scores:  # "check EVERY score in the list, no exceptions"
+for score in student_scores:  # Check EVERY score in the list, no exceptions"
     if score > highest_score:  # If the score I am on is greater than what I had previously seen in highest_score
         highest_score = score  # Assign that new score to be the highest score
 
