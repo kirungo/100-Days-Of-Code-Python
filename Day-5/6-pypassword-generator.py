@@ -17,9 +17,9 @@ symbols = 4
 password = []
 
 
-# Generate number_of_letter random letters
+# Generate random letters
 for letter in range(number_of_letters):
-    # All letters in the alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+    # Alphabet letters: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
     letters = string.ascii_letters
 
     # Get a random letter from the list of letters
@@ -27,14 +27,20 @@ for letter in range(number_of_letters):
 
     # Add the random letter to our password list
     password.append(random_letter)
+    
 
-# Generate 3 random numbers (0-9 is better for passwords than 1-101)
+# Generate random numbers in range of user input
 for number in range(numbers):
-    random_number = random.randint(0, 9)  # Fixed: typo "random_mumber", better range
+
+    # Get a random number from 0 to 9
+    random_number = random.randint(0, 9)
+    
+    # Add the random number to our password list
     password.append(random_number)
 
 # Generate 4 random symbols
-for symbol in range(symbols):  # Fixed: was range(1, symbols) which only gave 3 symbols
+for symbol in range(symbols):
+
     # Get all punctuation/special characters (like !@#$%^&*)
     pick_symbol = string.punctuation
     
@@ -45,7 +51,16 @@ for symbol in range(symbols):  # Fixed: was range(1, symbols) which only gave 3 
     password.append(random_symbol)
 
 # Now shuffle/randomize the password order
-random.shuffle(password)  # This is the easiest way to randomize!
+random.shuffle(password) 
 
 # Convert list to string for final password
-final_password = ''.join(str(char) for char in password)
+
+# Initiate final password to an empty string
+final_password = ""
+
+# Loop through password while concatenating into the final password string
+for item in password:
+    final_password = final_password + str(item)  # Convert item to string first!
+
+print(password)
+print(final_password)
