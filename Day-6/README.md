@@ -22,7 +22,8 @@ The while loop only stops when the statement being checked becomes false
 
 ```python
 while something_is true:
-    #Do this
+    # Do this
+    # Then this, the while loop executes as long as the condition is true
 
 ```
 
