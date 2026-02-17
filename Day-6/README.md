@@ -17,4 +17,12 @@ def my_function():
 # Calling the function
 my_function()
 ```
+<em> While Loops </em>
+The while loop only stops when the statement being checked becomes false
+
+```python
+while something_is true:
+    #Do this
+
+```
 
