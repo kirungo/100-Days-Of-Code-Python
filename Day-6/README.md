@@ -18,7 +18,8 @@ def my_function():
 my_function()
 ```
 <em> While Loops </em>
-The while loop only stops when the statement being checked becomes false
+While loop only stops when the statement being checked becomes false.
+When not sure while the while loop is infinite print out the condition attached to the while loop.
 
 ```python
 while something_is true:
