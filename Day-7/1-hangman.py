@@ -1,30 +1,26 @@
-# Build a Hangman Game
 import random
 
-word_list = ["aardvark", "baboon", "camel"]
+fruits = ["mango", "apple", "pear"]
+random_fruit = random.choice(fruits)
+print(random_fruit)
 
-print("Welcome to Hangman!")
+blank_word = ["_"] * len(random_fruit)
 
-# Step 1: Randomly choose a word from the word list
-chosen_word = random.choice(word_list)
-print(chosen_word)  # temporary - remove this when the game is complete
+game_over = False
 
-# Step 2: Create a placeholder string with blanks matching the length of the chosen word
-blank_word = ""
-for letter in chosen_word:
-    blank_word += "_"
+while not game_over:
 
-print(f"The word has {len(chosen_word)} letters: {blank_word}")
+    print("Word:", " ".join(blank_word))
+    guess = input("Guess a letter: ")
 
-# Step 3: Ask the user to guess a letter
-guess = input("\nGuess a letter: ").lower()
+    for letter in range(len(random_fruit)):
+        if random_fruit[letter] == guess:
+            blank_word[letter] = guess
 
-# Step 4: Reveal the guessed letter in the correct position(s), keep the rest as blanks
-correct_word = ""
-for letter in chosen_word:
-    if letter == guess:
-        correct_word += letter
-    else:
-        correct_word += "_"
+    if guess not in random_fruit:
+        print("Wrong guess, please try again!")
 
-print(f"\n{correct_word}")
+    # Check if game is finished
+    if "_" not in blank_word:
+        game_over = True
+        print("You won! 🎉 The word was:", random_fruit)
