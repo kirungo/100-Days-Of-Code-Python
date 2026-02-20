@@ -18,13 +18,12 @@ def my_function():
 my_function()
 ```
 
-*While Loops* </br>
+*While Loop* </br>
 While loop only stops when the statement being checked becomes false.
 When not sure while the while loop is infinite print out the condition attached to the while loop.
 
 ```python
 while something_is true:
     # Do this
-    # Then this, the while loop executes as long as the condition is true
-
+    # While loop executes as long as the condition is true
 ```
