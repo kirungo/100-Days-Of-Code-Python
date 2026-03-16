@@ -12,10 +12,13 @@ When you create a function with inputs:
 ```python
 # Define the function
 def myFunction(input):
+    # input is the parameter
     print(f"Hey! {input}")
 
 # Call the function
 myFunction("Tommy") 
+
+#Tommy is the Argument
 
 # Will output "Hey! Tommy"
 
